@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for portfolio-green-voice-8330 on 2024-08-20T13:22:42+02:00
+# fly.toml app configuration file generated for portfoliohalim on 2024-08-20T15:33:11+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'portfolio-green-voice-8330'
+app = 'portfoliohalim'
 primary_region = 'cdg'
 
 [build]
@@ -17,6 +17,6 @@ primary_region = 'cdg'
   processes = ['app']
 
 [[vm]]
-  memory = '1gb'
+  memory = '512mb'
   cpu_kind = 'shared'
   cpus = 1
